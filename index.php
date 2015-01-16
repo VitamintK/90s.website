@@ -15,6 +15,6 @@
 		I am a php programmer I am very professional just like my friend Saikaran
 
 	</p>
-		<img src = "frostedtips.png" alt = "FROSTEDTIPS">
+		<img src = "frostedtips.png" alt = "FROSTEDTIPS" style="width: 160px;">
 	</body>
 </html>
