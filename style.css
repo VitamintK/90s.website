@@ -2,6 +2,24 @@ body {
     color: green;
     text-align: center
 	}
-#sans{
+#welcome{
+	font-size: 3em;	
+}
+.sans{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+.blink {
+      animation: blink 1s steps(5, start) infinite;
+      -webkit-animation: blink 1s steps(5, start) infinite;
+    }
+    @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+    @-webkit-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
