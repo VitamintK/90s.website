@@ -5,6 +5,7 @@ body {
 #welcome{
 	font-size: 3em;	
 }
+
 .sans{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -23,3 +24,13 @@ body {
         visibility: hidden;
       }
     }
+
+.marquee {  
+	overflow-x: -webkit-marquee;
+	-webkit-marquee-direction: ahead|auto|backwards|down|forwards|inherit|left|reverse|right|up;
+	-webkit-marquee-increment: small|medium|large;
+	-webkit-marquee-repetition: {number};
+	-webkit-marquee-speed: slow|normal|fast;
+	-webkit-marquee-style: alternate|inherit|none|scroll|slide;
+	font-size:1.4em;
+}
